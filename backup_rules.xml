@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+      Encrypted provider settings (API keys) must never be backed up in plaintext
+      to an unencrypted backup target. Excluded explicitly.
+    -->
+    <exclude domain="sharedpref" path="eva_secure_settings.xml" />
+</full-backup-content>
